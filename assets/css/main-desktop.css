@@ -125,6 +125,13 @@ body {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
 }
+a {
+  text-decoration: none;
+  color: #111111;
+}
+a:hover {
+  color: #e97f02;
+}
 .sidebar {
   position: absolute;
   left: 0;
@@ -169,17 +176,20 @@ body {
   color: #cccccc;
   font-weight: normal;
 }
-.sidebar .sidebar__information .sidebar__information__links a {
+.sidebar .sidebar__information .sidebar__information__links {
   font-size: 16px;
   margin: 0;
   padding: 8px 0;
   line-height: 24px;
-  color: #f8ca00;
-  text-decoration: none;
+  color: #cccccc;
   font-weight: normal;
 }
+.sidebar .sidebar__information .sidebar__information__links a {
+  text-decoration: none;
+  color: #f8ca00;
+}
 .sidebar .sidebar__information .sidebar__information__links a:hover {
-	color: #f5e395
+  color: #f5e395;
 }
 .sidebar .sidebar__information .sidebar__information__footer {
   padding: 8px 0;
@@ -409,9 +419,9 @@ body {
   width: 44px;
   height: 44px;
   z-index: 99;
-  background-color: #000000;
+  background-color: #111111;
   font-size: 16px;
-  color: #FFF;
+  color: #111111;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
 }
