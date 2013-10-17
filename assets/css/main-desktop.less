@@ -66,6 +66,21 @@ body {
 			color: @color-white-dark;
 			font-weight: normal;
 		}
+		.sidebar__information__links {
+			font-size: @rs;
+			margin: 0;
+			padding: @rs/2 0;
+			line-height: @rs*1.5;
+			color: @color-white-dark;
+			font-weight: normal;
+			a {
+				text-decoration: none;
+				color: @color-main;
+				&:hover {
+					color: @color-main-light;
+				}
+			}
+		}
 		.sidebar__information__footer {
 			padding: @rs/2 0;
 			a {
