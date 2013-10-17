@@ -175,6 +175,7 @@ body {
   padding: 8px 0;
   line-height: 24px;
   color: #f8ca00;
+  text-decoration: none;
   font-weight: normal;
 }
 .sidebar .sidebar__information .sidebar__information__links a:hover {
