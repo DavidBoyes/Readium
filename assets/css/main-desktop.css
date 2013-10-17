@@ -275,6 +275,9 @@ body {
   padding: 0 0 8px;
   font-family: Andada, Georgia, serif;
 }
+.contentlist .contentlist__article__excerpt p img {
+  max-width: 100%;
+}
 .contentlist .contentlist__article__meta {
   font-size: 12px;
   line-height: 24px;
