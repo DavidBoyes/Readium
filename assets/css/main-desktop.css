@@ -492,7 +492,7 @@ a:hover {
 .contentpost .contentpost__footerbar {
   display: none;
 }
-.contentpost .contentpost_comments {
+.contentpost .contentpost__comments {
   margin-top: 30px;
 }
 .contentpost .contentpost__sidebar__meta {
