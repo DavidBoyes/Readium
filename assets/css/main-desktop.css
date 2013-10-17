@@ -394,9 +394,9 @@ body {
   width: 44px;
   height: 44px;
   z-index: 99;
-  background-color: #ffffff;
+  background-color: #000000;
   font-size: 16px;
-  color: #111111;
+  color: #FFF;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
 }
